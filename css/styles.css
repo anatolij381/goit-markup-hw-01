@@ -1,0 +1,53 @@
+.top-line {
+    background-color: #ffff;
+}
+.web {
+    color: #4D5AE5;
+}
+.studio {
+color: #2E2F42;
+}
+.nav-studio {
+    color: #2E2F42;
+}
+.nav-portfolio {
+    color: #2E2F42;
+}
+.nav-contacts {
+    color: #2E2F42;
+}
+.mail {
+    color: #434455;
+}
+.tel {
+    color: #434455;
+}
+.hero {
+    background-color:#2E2F42;
+    color: #ffffff;
+}
+button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+h2 {
+    color: #2E2F42;
+}
+p {
+    color: #434455;
+}
+h3 {
+    color: #2E2F42;
+}
+h4 {
+    color: #434455;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer>p {
+    color: #E7E9FC;
+}
+.footer>.studio {
+    color: #F4F4FD;
+}
