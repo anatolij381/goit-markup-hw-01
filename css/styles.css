@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .top-line {
     background-color: #ffff;
 }
@@ -50,4 +53,7 @@ h4 {
 }
 .footer>.studio {
     color: #F4F4FD;
+}
+ul {
+    list-style: none;
 }
