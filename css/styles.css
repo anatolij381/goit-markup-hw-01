@@ -32,7 +32,19 @@ color: #2E2F42;
 }
 button {
     color: #ffffff;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
+}
+.nav-studio:hover,
+.nav-studio:focus {
+    color: #404BBF;
+}
+.nav-studio:active {
+    color: tomato;
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus,
+.nav-portfolio:active {
+    color: #404BBF;
 }
 h2 {
     color: #2E2F42;
@@ -68,6 +80,12 @@ ul {
 .features {
    background-color: #ffffff;
     }
-    .nav-button {
-        color: ;
+    .nav-button button {
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+    }
+    .nav-button button:hover,
+    .nav-button button:focus {
+        color: #ffffff;
+        background-color: #404BBF;
     }
