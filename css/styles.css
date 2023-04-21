@@ -16,6 +16,7 @@ color: #2E2F42;
 .nav-portfolio {
     color: #2E2F42;
 }
+
 .nav-contacts {
     color: #2E2F42;
 }
@@ -57,3 +58,16 @@ h4 {
 ul {
     list-style: none;
 }
+/* портфолио */
+.features > p {
+    color: #434455;
+}
+.features-desc {
+    color: #2E2F42;
+}
+.features {
+   background-color: #ffffff;
+    }
+    .nav-button {
+        color: ;
+    }
