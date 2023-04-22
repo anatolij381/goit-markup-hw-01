@@ -11,10 +11,12 @@ a {
 .web {
     color: #4D5AE5;
     font-size: 18px;
+    font-family: Raleway;
 }
 .studio {
 color: #2E2F42;
 font-size: 18px;
+font-family: Raleway;
 }
 /* навигаційні посилання */
 .nav-studio {
