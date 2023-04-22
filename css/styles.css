@@ -4,36 +4,54 @@ a {
 .top-line {
     background-color: #ffff;
 }
+/* лого */
 .web {
     color: #4D5AE5;
+    font-size: 18px;
 }
 .studio {
 color: #2E2F42;
+font-size: 18px;
 }
+/* навигаційні посилання */
 .nav-studio {
     color: #2E2F42;
+    font-size: 18px;
 }
 .nav-portfolio {
     color: #2E2F42;
+    font-size: 18px;
 }
 
 .nav-contacts {
     color: #2E2F42;
+    font-size: 18px;
 }
+/* контактні дані */
 .mail {
     color: #434455;
+    font-size: 16px;
 }
 .tel {
     color: #434455;
+    font-size: 16px;
 }
+h1 {
+    font-size: 56px;
+    color: #ffffff;
+}
+
 .hero {
     background-color:#2E2F42;
     color: #ffffff;
 }
+/* головна кнопка "замовити послугу" */
 button {
     color: #ffffff;
     background-color: #404BBF;
+    font-size: 16px;
 }
+/* навігація по сайту */
 .nav-studio:hover,
 .nav-studio:focus {
     color: #404BBF;
@@ -46,18 +64,23 @@ button {
 .nav-portfolio:active {
     color: #404BBF;
 }
+/* заголовки та абзаци */
 h2 {
+    font-size: 36px;
     color: #2E2F42;
 }
 p {
+    font-size: 16px;
     color: #434455;
 }
 h3 {
+    font-size: 20px;
     color: #2E2F42;
 }
 h4 {
     color: #434455;
 }
+/* подвал */
 .footer {
     background-color: #2E2F42;
 }
@@ -67,25 +90,21 @@ h4 {
 .footer>.studio {
     color: #F4F4FD;
 }
+/* відміна маркерів */
 ul {
     list-style: none;
 }
 /* портфолио */
-.features > p {
-    color: #434455;
-}
-.features-desc {
-    color: #2E2F42;
-}
 .features {
    background-color: #ffffff;
     }
-    .nav-button button {
+    /* фільтруючі кнопки */
+    .filters-button button {
         color: #4D5AE5;
         background-color: #F4F4FD;
     }
-    .nav-button button:hover,
-    .nav-button button:focus {
+    .filters-button button:hover,
+    .filters-button button:focus {
         color: #ffffff;
         background-color: #404BBF;
     }
