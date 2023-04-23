@@ -12,17 +12,18 @@ a {
     background-color: #ffff;
 }
 /* лого */
-.web {
-    color: #4D5AE5;
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 800;
+.accent-header {
+    color: #2E2F42;
 }
-.studio {
-color: #2E2F42;
+.accent-footer {
+    color: #F4F4FD;
+}
+.webstudio {
+color: #4D5AE5;
 font-size: 18px;
 font-family: Raleway;
 font-weight: 800;
+line-height: 1.33;
 }
 /* навигаційні посилання */
 .web-site {
@@ -33,6 +34,7 @@ font-weight: 800;
 .nav-contacts {
     color: #2E2F42;
     font-size: 18px;
+    line-height: 1.5;
 }
 .nav-studio:hover,
 .nav-studio:focus,
@@ -47,14 +49,17 @@ font-weight: 800;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
 }
 .tel {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
 }
 .title {
     font-size: 56px;
+    line-height: 1.07;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -70,12 +75,14 @@ button {
     background-color: #404BBF;
     font-family: Roboto;
     font-size: 16px;
+    line-height: 1.17;
     font-weight: 600;
 }
 
 /* заголовки та абзаци */
 .oppo, .team, .clients {
     font-size: 36px;
+    line-height: 1.11;
     font-weight: 700;
     color: #2E2F42;
     text-align: center;
@@ -85,6 +92,7 @@ button {
 .profession,
 .app, .marketing, .design, .website, .all  {
     font-size: 16px;
+    line-height: 1.5;
     font-weight: 400;
     color: #434455;
     text-align: center;
@@ -92,12 +100,14 @@ button {
 }
 .text {
     font-size: 16px;
+    line-height: 1.5;
     font-weight: 400;
     color: #434455;
 }
 .name,
 .features-desc {
     font-size: 20px;
+    line-height: 1.2;
     color: #2E2F42;
     font-weight: 500;
     text-align: center;
@@ -105,6 +115,7 @@ button {
 }
 .principles {
     font-size: 20px;
+    line-height: 1.2;
     color: #2E2F42;
     font-weight: 500;
 }
@@ -112,6 +123,7 @@ button {
 .social-media {
     color: #ffffff;
     font-size: 16px;
+    line-height: 1.5;
     font-weight: 600;
     letter-spacing: 0.02em;
 }
@@ -120,9 +132,6 @@ button {
 }
 .footer>p {
     color: #E7E9FC;
-}
-.footer>.studio {
-    color: #F4F4FD;
 }
 /* портфолио */
 .features {
