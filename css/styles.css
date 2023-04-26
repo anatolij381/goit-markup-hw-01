@@ -80,6 +80,7 @@ line-height: 1.33;
 
 .hero {
     outline: 1px solid red;
+    width: 1440px;
     height: 603px;
     background-color:#2E2F42;
     color: #ffffff;
@@ -237,9 +238,14 @@ button {
    background-color: #ffffff;
     }
     /* фільтруючі кнопки */
+    .filters-button {
+        margin: 0px auto 72px;
+        outline: 1px solid red;
+    }
     .filters-button button {
         color: #4D5AE5;
         background-color: #F4F4FD;
+        
     }
     .filters-button button:hover,
     .filters-button button:focus {
@@ -272,9 +278,17 @@ button {
 .website,
 .design,
 .marketing,
-.app {
+.app, 
+.all {
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
     box-sizing: border-box;
+}
+.row {
+    outline: 1px solid red;
+    width: 1128px;
+    background-color: #F4F4FD;
+    padding: 0px;
+    margin: 0px auto 48px;
 }
