@@ -228,6 +228,7 @@ button {
     margin: 0px auto 16px;
 }
 .footer {
+    width: 1440px;
     background-color: #2E2F42;
 }
 .footer-logo >p {
