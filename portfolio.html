@@ -12,24 +12,26 @@
 
 </head>
 <body>
-     <!--шапка-->
-    <header class="top-line">
-        <!-- лого -->
-        <a class="webstudio" href="./index.html">WEB <span class="accent-header">Студія</span></a>
-        <nav class="web-site"> 
-             <!--навігаційні посилання  -->
-            <ul>       
-                <li><a class="nav-studio" href="./index.html">Студія</a></li>
-                <li><a class="nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="nav-contacts" href="/">Контакти</a></li>
-            </ul>
-        </nav>
-        <!--контакти-->
-        <ul>
+    <div class="container">
+        <!--шапка-->
+        <header class="top-line">
+          <!-- лого -->
+           <a class="webstudio" href="./index.html">WEB <span class="accent-header">Студія</span></a>
+          <!-- навігаційні посилання -->
+            <nav class="web-site">
+                <ul>
+                   <li><a class="nav-studio" href="./index.html">Студія</a></li>
+                   <li><a class="nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
+                   <li><a class="nav-contacts" href="/">Контакти</a></li>
+                </ul>
+            </nav>
+          <!--контакти-->
+          <ul>
             <li><a class="mail" href="mailto:info@dewstudio.com">info@dewstudio.com</a></li>
             <li><a class="tel" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
-        </ul>
-    </header>
+           </ul>
+        </header>         
+    </div>
     <!-- набір навігаційних кнопок -->
     <nav-page>
         <ul class="filters-button">
@@ -43,56 +45,94 @@
     <!-- проекти -->
     <main class="features">
         <ul>
-            <li><img src="./images/portfolio-1.jpg" alt="Банківські додатки концепція інтерфейсу">
-             <h3 class="features-desc">Банківські додатки концепція інтерфейсу</h3>
-             <p class="app">Додаток</p>
-            </li>
-            <li><img src="./images/portfolio-2.jpg" alt="Безготівковий розрахунок">
-             <h3 class="features-desc">Безготівковий розрахунок</h3>
-             <p class="marketing">Маркетинг</p>            
-            </li> 
-            <li><img src="./images/portfolio-3.jpg" alt="Додаток для медитації">
-             <h3 class="features-desc">Додаток для медитації</h3>
-             <p class="app">Додаток</p>
-            </li> 
-            <li><img src="./images/portfolio-4.jpg" alt="Сервіс таксі">
-             <h3 class="features-desc">Сервіс таксі</h3>
-             <p class="marketing">Маркетинг</p>
-            </li> 
-            <li><img src="./images/portfolio-5.jpg" alt="Екранні іллюстрації">
-             <h3 class="features-desc">Екранні іллюстрації</h3>
-             <p class="design">Дизайн</p>
-            </li> 
-            <li><img src="./images/portfolio-6.jpg" alt="Онлайн курси">
-             <h3 class="features-desc">Онлайн курси</h3>
-             <p class="marketing">Маркетинг</p>
-            </li> 
-            <li><img src="./images/portfolio-7.jpg" alt="Концепція історій Instagram">
-             <h3 class="features-desc">Концепція історій Instagram</h3>
-             <p class="design">Дизайн</p>
-            </li> 
-            <li><img src="./images/portfolio-8.jpg" alt="Органічна їжа">
-             <h3 class="features-desc">Органічна їжа</h3>
-             <p class="website">Веб сайт</p>
-            </li> 
-            <li><img src="./images/portfolio-9.jpg" alt="Свіжа кава">
-             <h3 class="features-desc">Свіжа кава</h3>
-             <p class="website">Веб сайт</p>
-            </li> 
+            <div class="project-card">
+                <li><img src="./images/portfolio-1.jpg" alt="Банківські додатки концепція інтерфейсу">
+                <div class="features-desc">
+                    <h3>Банківські додатки концепція інтерфейсу</h3>
+                <p class="app">Додаток</p>
+                </div>
+                </li>
+            </div>
+            <div class="project-card">
+                <li><img src="./images/portfolio-2.jpg" alt="Безготівковий розрахунок">
+                    <div class="features-desc">
+                        <h3>Безготівковий розрахунок</h3>
+                    <p class="marketing">Маркетинг</p>
+                    </div>            
+                </li>
+            </div>
+            <div class="project-card">
+                <li><img src="./images/portfolio-3.jpg" alt="Додаток для медитації">
+                    <div class="features-desc">
+                        <h3>Додаток для медитації</h3>
+                    <p class="app">Додаток</p>
+                    </div>
+                </li>
+            </div>
+            <div class="project-card">
+                <li><img src="./images/portfolio-4.jpg" alt="Сервіс таксі">
+                    <div class="features-desc">
+                        <h3>Сервіс таксі</h3>
+                    <p class="marketing">Маркетинг</p>
+                    </div>
+                </li>
+            </div>
+            <div class="project-card">
+                <li><img src="./images/portfolio-5.jpg" alt="Екранні іллюстрації">
+                    <div class="features-desc">
+                        <h3>Екранні іллюстрації</h3>
+                    <p class="design">Дизайн</p>
+                    </div>
+                </li>
+            </div>
+            <div class="project-card">
+                <li><img src="./images/portfolio-6.jpg" alt="Онлайн курси">
+                    <div class="features-desc">
+                        <h3>Онлайн курси</h3>
+                    <p class="marketing">Маркетинг</p>
+                    </div>
+                </li>
+            </div>       
+            <div class="project-card">
+                <li><img src="./images/portfolio-7.jpg" alt="Концепція історій Instagram">
+                    <div class="features-desc">
+                        <h3>Концепція історій Instagram</h3>
+                    <p class="design">Дизайн</p>
+                    </div>
+                </li>
+            </div> 
+            <div class="project-card">
+                <li><img src="./images/portfolio-8.jpg" alt="Органічна їжа">
+                    <div class="features-desc">
+                        <h3>Органічна їжа</h3>
+                    <p class="website">Веб сайт</p>
+                    </div>
+                </li>
+            </div> 
+            <div class="project-card">
+                <li><img src="./images/portfolio-9.jpg" alt="Свіжа кава">
+                    <div class="features-desc">
+                        <h3>Свіжа кава</h3>
+                    <p class="website">Веб сайт</p>
+                    </div>
+                </li>
+            </div>           
+             
         </ul>
     </main>
     <!-- подвал -->
-    <footer class="footer">
+    <footer class="footer">         
         <!-- лого в підвалі -->
-        <a class="webstudio" href="./index.html">WEB <span class="accent-footer">Студія</span></a>
-        <!-- замість абзаца має бути поштова адреса -->
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia!</p> 
+        <div class="footer-logo">
+            <a class="webstudio" href="./index.html">WEB <span class="accent-footer">Студія</span></a>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia!</p>
+        </div>         
        <h3 class="social-media">Соціальні мережі</h3>
        <ul>
-         <li><img src="./images/instagram.svg" alt="Instagram"></li>
-         <li><img src="./images/twitter.svg" alt="twitter"></li>
-         <li><img src="./images/fasebook.svg" alt="fasebook"></li>
-         <li><img src="./images/linkedin.svg" alt="linkedin"></li>
+        <li><img src="./images/instagram.svg" alt="Instagram"></li>
+        <li><img src="./images/twitter.svg" alt="twitter"></li>
+        <li><img src="./images/fasebook.svg" alt="fasebook"></li>
+        <li><img src="./images/linkedin.svg" alt="linkedin"></li>
        </ul>
     </footer>
 </body>

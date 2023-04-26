@@ -11,26 +11,27 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--шапка-->
-    <header class="top-line">
-        <!-- лого -->
-        <a class="webstudio" href="./index.html">WEB <span class="accent-header">Студія</span></a>
-        <!-- навігаційні посилання -->
-        <nav class="web-site">
-            <ul>
-                <li><a class="nav-studio" href="./index.html">Студія</a></li>
-                <li><a class="nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="nav-contacts" href="/">Контакти</a></li>
-            </ul>
-        </nav>
-        <!--контакти-->
-        <ul>
+    <div class="container">
+        <!--шапка-->
+        <header class="top-line">
+          <!-- лого -->
+           <a class="webstudio" href="./index.html">WEB <span class="accent-header">Студія</span></a>
+          <!-- навігаційні посилання -->
+            <nav class="web-site">
+                <ul>
+                   <li><a class="nav-studio" href="./index.html">Студія</a></li>
+                   <li><a class="nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
+                   <li><a class="nav-contacts" href="/">Контакти</a></li>
+                </ul>
+            </nav>
+          <!--контакти-->
+          <ul>
             <li><a class="mail" href="mailto:info@dewstudio.com">info@dewstudio.com</a></li>
             <li><a class="tel" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
-        </ul>
+           </ul>
+        </header>         
+    </div>
 
-
-    </header>
     <!--hero-->
     <main>
          <section class="hero">
@@ -46,22 +47,22 @@
     <section class="advantages">
         <h2 style="display: none;">About</h2>
         <ul>
-            <li> 
+            <li class="princip"> 
                 <img src="./images/strategi.png" alt="">
                 <h3 class="principles">Планування</h3>
                 <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat.</p>
             </li>
-            <li> 
+            <li class="princip"> 
                 <img src="./images/punctuality.png" alt="">                  
                 <h3 class="principles">Пунктуальність</h3>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos?</p>
             </li>
-            <li>
+            <li class="princip">
                 <img src="./images/diligence.png" alt="">
                 <h3 class="principles">Старанність</h3>
                 <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, facilis!</p>
             </li>
-            <li>
+            <li class="princip">
                 <img src="./images/technologies.png" alt="">
                 <h3 class="principles">Сучасні технології</h3>
                 <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, repellendus.</p>
@@ -71,30 +72,30 @@
     </section>
         <!--продукція-->
         
-    <section>
+    <section class="oppo-head">
         <h2 class="oppo">Що ми робимо</h2>
         <ul>
             <li>
-                <img src="./images/Rectangle71-1.jpg" alt="desktop" width="500">
+                <img class="produkcion" src="./images/Rectangle71-1.jpg" alt="desktop" width="360">
             </li>
             <li>
-                <img src="./images/Rectangle71-2.jpg" alt="applications" width="500">
+                <img class="produkcion" src="./images/Rectangle71-2.jpg" alt="applications" width="360">
             </li>
             <li>
-                <img src="./images/Rectangle71-3.jpg" alt="cellphone" width="500">
+                <img class="produkcion" src="./images/Rectangle71-3.jpg" alt="cellphone" width="360">
             </li>                
         </ul>
     </section>
     <!--команда-->
-    <section>
+    <section class="team-head">
         <h2 class="team">Наша команда</h2>
         <ul>
             <li>
-                    <div>
-                        <img src="./images/img-1.jpg" alt="Mark Guerrero" width="500">
+                    <div class="card-content">
+                        <img src="./images/img-1.jpg" alt="Mark Guerrero" width="264">
                         <h3 class="name">Марк Герреро</h3>
                         <p class="profession">Дизайнер продукту</p>
-                        <ul>
+                        <ul class="traling-icons">
                             <li><img src="./images/instagram-2.svg" alt="Instagram"></li>
                             <li><img src="./images/twitter-2.svg" alt="twitter"></li>
                             <li><img src="./images/fasebook-2.svg" alt="fasebook"></li>
@@ -103,11 +104,11 @@
                     </div>
             </li>
             <li>
-                    <div>
-                        <img src="./images/img-2.jpg" alt="Tom Ford" width="500">
+                    <div class="card-content">
+                        <img src="./images/img-2.jpg" alt="Tom Ford" width="264">
                         <h3 class="name">Том форд</h3>
                         <p class="profession">Frontent Developer</p>
-                        <ul>
+                        <ul class="traling-icons">
                             <li><img src="./images/instagram-2.svg" alt="Instagram"></li>
                             <li><img src="./images/twitter-2.svg" alt="twitter"></li>
                             <li><img src="./images/fasebook-2.svg" alt="fasebook"></li>
@@ -116,11 +117,11 @@
                     </div>
             </li>
             <li>
-                    <div>
-                        <img src="./images/img-3.jpg" alt="Camila Garcia" width="500">
+                    <div class="card-content">
+                        <img src="./images/img-3.jpg" alt="Camila Garcia" width="264">
                         <h3 class="name">Камілія Гарсія</h3>
                         <p class="profession">Маркетолог</p>
-                        <ul>
+                        <ul class="traling-icons">
                             <li><img src="./images/instagram-2.svg" alt="Instagram"></li>
                             <li><img src="./images/twitter-2.svg" alt="twitter"></li>
                             <li><img src="./images/fasebook-2.svg" alt="fasebook"></li>
@@ -129,11 +130,11 @@
                     </div>
             </li>
             <li>
-                    <div>
-                        <img src="./images/img-4.jpg" alt="Daniel Vilson" width="500">
+                    <div class="card-content">
+                        <img src="./images/img-4.jpg" alt="Daniel Vilson" width="264">
                         <h3 class="name">Даніель Вілсон</h3>
                         <p class="profession">Дизайнер інтерфейсу користувача</p>
-                        <ul>
+                        <ul class="traling-icons">
                             <li><img src="./images/instagram-2.svg" alt="Instagram"></li>
                             <li><img src="./images/twitter-2.svg" alt="twitter"></li>
                             <li><img src="./images/fasebook-2.svg" alt="fasebook"></li>
@@ -143,8 +144,9 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h2 class="clients">Наші клієнти</h2>
+    <!-- клиєнти -->
+    <section class="clients-head">
+        <h2 class="clients">Клієнти</h2>
         <ul>
             <li><img src="./images/client-1.png" alt=""></li>
             <li><img src="./images/client-2.png" alt=""></li>
@@ -156,9 +158,11 @@
     </section>          
     <!-- підвал -->                                 
     <footer class="footer">         
-        <!-- лого в підвалі -->                     
-        <a class="webstudio" href="./index.html">WEB <span class="accent-footer">Студія</span></a>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia!</p> 
+        <!-- лого в підвалі -->
+        <div class="footer-logo">
+            <a class="webstudio" href="./index.html">WEB <span class="accent-footer">Студія</span></a>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia!</p>
+        </div>         
        <h3 class="social-media">Соціальні мережі</h3>
        <ul>
         <li><img src="./images/instagram.svg" alt="Instagram"></li>

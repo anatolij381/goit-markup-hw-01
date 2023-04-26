@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 body {
     font-family: Roboto;
 }
@@ -9,6 +17,7 @@ a {
     text-decoration: none;
 }
 .top-line {
+    width: 1440px;
     background-color: #ffff;
 }
 /* лого */
@@ -58,29 +67,73 @@ line-height: 1.33;
     line-height: 1.5;
 }
 .title {
+    outline: 1px solid red;
+    width: 600px;
+    height: 120px;
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .hero {
+    outline: 1px solid red;
+    height: 603px;
     background-color:#2E2F42;
     color: #ffffff;
+    margin-bottom: 120px;
 }
 /* головна кнопка "замовити послугу" */
 button {
+    outline: 1px solid red;
     color: #ffffff;
     background-color: #404BBF;
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.17;
     font-weight: 600;
+    height: 51px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    align-items: center;
+    border: 0px;
+}
+/* принципи */
+.advantages {
+    outline: 1px solid red;
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 117px;
+}
+.princip {
+    outline: 1px solid red;
+    width: 264px;
+}
+/* продукція */
+.oppo-head {
+    outline: 1px solid red;
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 123px;
+}
+/* клиєнти */
+.clients-head {
+    outline: 1px solid red;
+    margin: 0px auto 120px;
+    width: 1128px;
+}
+.clients {
+    outline: 1px solid red;
+    margin: 0px auto 72px;
 }
 
 /* заголовки та абзаци */
 .oppo, .team, .clients {
+    outline: 1px solid red;
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
@@ -88,6 +141,37 @@ button {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+}
+.card-content>img {
+    margin: 0px auto 32px;
+    align-items: center;
+}
+.card-content {
+    outline: 1px solid red;
+    width: 264px;
+    margin-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+
+}
+
+.traling-icons {
+    outline: 1px solid red;
+    width: 232px;
+    padding: 4px 0px;
+    align-items: center;
+    margin: 0px auto 32px;
+}
+.team-head {
+    background-color: #F4F4FD;
+    width: 1440px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    outline: 1px solid red;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .profession,
 .app, .marketing, .design, .website, .all  {
@@ -97,15 +181,21 @@ button {
     color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
+    
+}
+.name,
+.profession {
+    margin: 0px auto 8px;
 }
 .text {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     color: #434455;
+    margin: 0px;
 }
 .name,
-.features-desc {
+.features-desc >h3 {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
@@ -118,6 +208,7 @@ button {
     line-height: 1.2;
     color: #2E2F42;
     font-weight: 500;
+    width: 264px;
 }
 /* подвал */
 .social-media {
@@ -127,10 +218,18 @@ button {
     font-weight: 600;
     letter-spacing: 0.02em;
 }
+.footer-logo {
+    width: 264px;
+    padding: 0px;
+    margin: 100px auto 100px 156px;
+}
+.footer-logo >.webstudio {
+    margin: 0px auto 16px;
+}
 .footer {
     background-color: #2E2F42;
 }
-.footer>p {
+.footer-logo >p {
     color: #E7E9FC;
 }
 /* портфолио */
@@ -147,3 +246,35 @@ button {
         color: #ffffff;
         background-color: #404BBF;
     }    
+/* проекти */
+.project-card {
+    width: 360px;
+    background-color: #ffffff;
+    border: 0.5px solid #F4F4FD;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 48px;
+
+}
+.project-card >img {
+    width: 360px;
+    margin-bottom: 32px;
+}
+.features-desc {
+    padding: 0px 16px;
+    width: 360px;
+}
+.features-desc >h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.website,
+.design,
+.marketing,
+.app {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
