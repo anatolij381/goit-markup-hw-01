@@ -293,3 +293,27 @@ button {
     padding: 0px;
     margin: 0px auto 48px;
 }
+.list {
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid blue; */
+}
+.list-item {
+    width: 264px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 4px;
+
+    /* background-color: palegoldenrod; */
+}
+.list-item::before {
+    /* outline: 1px solid black; */
+    display: block;
+    content: "";
+    height: 112px;
+    background-image: url(../images/antenna1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+}
